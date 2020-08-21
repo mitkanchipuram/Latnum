@@ -37,7 +37,7 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 // COIN - numbe of smallest units in one coin
 
 //TODO Define minimum fee for transactions
-const uint64_t MINIMUM_FEE                                   = 1000;
+const uint64_t MINIMUM_FEE                                   = 1;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
 //TODO Define preferred block's target time
@@ -77,16 +77,14 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Latnum";
 const char     CRYPTONOTE_SYMBOL[]                           = "(LTN)";
-const char     CRYPTONOTE_MONEY_SUPPLY_COLOR[]               = "springgreen";
-const char     CRYPTONOTE_CURRENCY_COLOR[]                   = "springgreen";
 const char     CRYPTONOTE_COLOR[]                            = "springgreen";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffffffff7f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b6f1302109aaf611db3ee59ad33f0737449ed5672e0b948433f48d372a05ee52";
 
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1584058483;
 ///////                           ********* THE MELTDOWN  THE MARKET CRASH & CONTINUE CRASHING AS I WRITE THIS... 03/13/2020 *********               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      ///////
-//////                                                        ***YEAR ZERO RESET*** * ***THIS IS A RESTART***
-//////  TAKE YE THIS POWER * BE NOT EVER GREEDY * MOVE NOW IN ORDER * MOVE OUT IN HARMONY * FOLLOW NOT EVER THE BROTHERS OF DARKNESS * IN TIME YET NOT A TIME * BROTHERS & SISTERS OF LIGHT MAY THY BE IN THE CYCLE ABOVE *  ///////
+///////                                                        ***YEAR ZERO RESET*** * ***THIS IS A RESTART***
+//////  TAKE YE THIS POWER * NEVER BE GREEDY * MOVE NOW IN ORDER * MOVE OUT IN HARMONY * FOLLOW NOT EVER THE BROTHERS OF DARKNESS * IN TIME YET NOT A TIME * SUN MAY YE BE IN THE CYCLE ABOVE *  ///////
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
