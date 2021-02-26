@@ -116,11 +116,12 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "192.168.0.102:17325",
-  "192.168.0.101:17326",
-  "192.168.0.113:17326",
+  "54.193.84.29:17325",
+  "13.56.231.38:17326",
   "13.52.254.39:17325",
   "54.183.246.246:17326",
+  "www.globus1.mobi:17325",
+  "www.globus1online.com:17326",
   "www.globus1.com:17325",
   "www.globus1.online:17325",
   "www.chronovisor.online:17326",
