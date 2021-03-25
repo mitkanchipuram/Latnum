@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    latnum-new-2:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 17326:17326
+            - 8090:8090
+            - 4200:4200
+networks:
+  latnum:
+    driver: bridge
